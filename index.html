@@ -21,6 +21,10 @@
             type: Phaser.AUTO,
             width: larguraJogo,
             height: alturaJogo,
+            scale{
+            mode: Phaser.Scale.RESIZE,
+            autocenter: Phaser.Scale.CENTER_BOTH
+            },
 
             physics: {
                 default: 'arcade',
